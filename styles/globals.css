@@ -20,11 +20,11 @@ body {
 }
 @layer components{
   .main{
-    @apply flex justify-center 
+    @apply flex justify-center lg:min-h-screen lg:items-center
   }
   .AdviceContainer{
     @apply bg-darkGrayishBlue w-72 h-fit mx-3 mt-24 rounded-md flex flex-col 
-   lg:mt-40 lg:w-[430px] 
+    lg:mt-0 lg:w-[430px] 
       
   }
   .TextContainer{
@@ -35,7 +35,7 @@ body {
   }
   .TextContainer span{
     @apply text-lightCyan tracking-widest text-[21px] text-center mx-2.5
-    lg:mx-7
+    lg:mx-7 
   }
   .Divider{
     @apply self-center pt-5 
