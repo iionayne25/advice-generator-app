@@ -44,6 +44,14 @@ export default function Home() {
               alt="divider mobile image"
               width={295}
               height={16}
+              className="md:hidden"
+            />
+            <Image
+              src="/images/pattern-divider-desktop.svg"
+              alt="divider mobile image"
+              width={350}
+              height={16}
+              className="hidden lg:block"
             />
           </div>
           <div className="RandomBtn" onClick={fetchData}>
