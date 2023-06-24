@@ -39,6 +39,6 @@ body {
     @apply self-center pt-5
   }
   .RandomBtn{
-    @apply self-center bg-neonGreen p-4 rounded-full relative top-6
+    @apply self-center bg-neonGreen p-4 rounded-full relative top-6 hover:shadow-3xl 
   }
 }
